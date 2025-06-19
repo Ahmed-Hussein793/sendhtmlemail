@@ -1,0 +1,18 @@
+{
+  "name": "sendhtmlemail",
+  "version": "1.0.0",
+  "description": "a tool used to send html email",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "htmlEmailSender": "index.js"
+  },
+  "author": "Ahmed Hussein",
+  "license": "public",
+  "dependencies": {
+    "commander": "^14.0.0",
+    "nodemailer": "^7.0.3"
+  }
+}

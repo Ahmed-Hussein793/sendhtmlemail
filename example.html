@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+<body>
+    <h1>Example</h1>
+    <h2>HTML Content</h2>
+    <!-- 
+        If you want to include images, you should set the src attribute to cid:unique_key. 
+        Then, include the file name, file path, and cid in the files.json file.
+        The JSON file should be an array. See example.json for reference.
+    -->
+
+    <img src="cid:example" alt="example">
+
+    <!-- 
+        Note: cid does not work with the href attribute.
+        However, you can attach files like PDF, CSV, and TXT directly to the email 
+        as attachments (not embedded in the HTML body).
+        You can also use external links to include any file or image in your HTML body easily, like:
+        <img src="https://www.example.com/image.png" alt="image">
+    -->
+</body>
+</html>
