@@ -29,7 +29,6 @@ const subject = options.subject;
 let htmlContent = options.content;
 let files = options.files;
 
-console.log(files);
 
 try {
   htmlContent = fs.readFileSync(path.join(process.cwd(), htmlContent), 'utf8');
